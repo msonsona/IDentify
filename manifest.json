@@ -9,6 +9,7 @@
     {
       "matches": ["http://*.promofarma.com/*", "http://*.promocionesfarma.com/*"],
       "js": ["jquery-2.1.1.min.js", "identify.js"],
+      "css": ["identify.css"],
       "run_at": "document_end"
     }
   ]
