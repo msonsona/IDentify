@@ -5,11 +5,10 @@
 
 .identify-display {
   background: #66c13a;
-  border: 1px white solid;
-  border-radius: 5px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: white;
+  padding: 3px 5px;
+  width: 216px;
   z-index: 10000000;
-  padding: 5px;
 }
