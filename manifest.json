@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "IDentify PromoFarma",
+  "description": "Display coupon_ids for offers with SEO-friendly URLs.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*.promofarma.com/*", "http://*.promocionesfarma.com/*"],
+      "js": ["jquery-2.1.1.min.js", "identify.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
